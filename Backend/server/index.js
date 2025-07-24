@@ -39,7 +39,3 @@ app.listen(5000, () => {
 });
 
 
-const port = process.env.PORT || 3000; // Sử dụng PORT từ Render hoặc mặc định 3000
-app.listen(port, '0.0.0.0', () => {
-  console.log(`Server is running on port ${port}`);
-});
